@@ -141,3 +141,36 @@ text-decoration:none;
 .topic-card a:hover{
 color:#4db8ff;
 }
+
+/* NASA STYLE SECTION */
+
+.section-highlight{
+background:#0f2742;
+padding:60px 20px;
+text-align:center;
+}
+
+.section-highlight h2{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.section-highlight p{
+max-width:700px;
+margin:auto;
+line-height:1.7;
+}
+
+/* IMAGE DIAGRAMS */
+
+.diagram{
+text-align:center;
+margin:40px auto;
+}
+
+.diagram img{
+max-width:500px;
+width:90%;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.6);
+}
