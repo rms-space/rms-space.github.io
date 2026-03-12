@@ -1,20 +1,34 @@
 body{
-font-family: Arial;
+font-family: Arial, Helvetica, sans-serif;
 margin:0;
 background:#0b1a2a;
 color:white;
 }
 
+/* HEADER */
+
 header{
 background:#08101c;
 text-align:center;
-padding:20px;
+padding:25px;
 }
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+header p{
+margin-top:5px;
+color:#ccc;
+}
+
+/* NAVIGATION */
 
 nav{
 background:#111;
 text-align:center;
-padding:10px;
+padding:12px;
 }
 
 nav a{
@@ -22,13 +36,20 @@ color:white;
 margin:15px;
 text-decoration:none;
 font-weight:bold;
+transition:0.3s;
 }
+
+nav a:hover{
+color:#4db8ff;
+}
+
+/* HERO SECTION */
 
 .hero{
 background-image:url("https://images.unsplash.com/photo-1446776653964-20c1d3a81b06");
 background-size:cover;
 background-position:center;
-height:500px;
+height:420px;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -36,50 +57,40 @@ text-align:center;
 }
 
 .hero-text{
-background:rgba(0,0,0,0.6);
+background:rgba(0,0,0,0.65);
 padding:40px;
 border-radius:10px;
+max-width:700px;
 }
 
 .hero h2{
-font-size:48px;
-}
-.cards{
-text-align:center;
-padding:40px;
+font-size:42px;
+margin-bottom:10px;
 }
 
-.card{
-display:inline-block;
-width:250px;
-margin:20px;
-padding:20px;
-background:#16263c;
-border-radius:10px;
-}
-
-footer{
-background:#08101c;
-text-align:center;
-padding:20px;
-}
+/* TOPIC SECTION */
 
 .topics{
-padding:60px;
+padding:60px 20px;
 text-align:center;
-background:#0b1a2a;
 }
+
+.topics h2{
+margin-bottom:40px;
+}
+
+/* TOPIC CARDS */
 
 .topic-container{
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
+gap:30px;
 }
 
 .topic-card{
 background:#16263c;
 width:250px;
-margin:20px;
 padding:25px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.5);
@@ -88,8 +99,19 @@ transition:0.3s;
 
 .topic-card:hover{
 transform:scale(1.05);
+background:#1e3555;
 }
 
 .topic-card h3{
 margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#08101c;
+text-align:center;
+padding:20px;
+margin-top:40px;
+color:#bbb;
 }
