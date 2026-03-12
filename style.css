@@ -132,3 +132,12 @@ padding:20px;
 margin-top:40px;
 color:#bbb;
 }
+
+.topic-card a{
+color:white;
+text-decoration:none;
+}
+
+.topic-card a:hover{
+color:#4db8ff;
+}
