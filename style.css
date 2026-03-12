@@ -68,15 +68,36 @@ font-size:42px;
 margin-bottom:10px;
 }
 
-/* TOPIC SECTION */
+/* PAGE CONTENT */
 
+.content,
 .topics{
+max-width:900px;
+margin:auto;
 padding:60px 20px;
 text-align:center;
 }
 
+.content h2,
 .topics h2{
-margin-bottom:40px;
+margin-bottom:25px;
+font-size:32px;
+}
+
+.content p,
+.topics p{
+line-height:1.7;
+}
+
+/* LIST FIX */
+
+ul{
+list-style-position:inside;
+padding:0;
+}
+
+ul li{
+margin:8px 0;
 }
 
 /* TOPIC CARDS */
@@ -100,10 +121,6 @@ transition:0.3s;
 .topic-card:hover{
 transform:scale(1.05);
 background:#1e3555;
-}
-
-.topic-card h3{
-margin-bottom:10px;
 }
 
 /* FOOTER */
