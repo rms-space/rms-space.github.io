@@ -63,3 +63,33 @@ background:#08101c;
 text-align:center;
 padding:20px;
 }
+
+.topics{
+padding:60px;
+text-align:center;
+background:#0b1a2a;
+}
+
+.topic-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.topic-card{
+background:#16263c;
+width:250px;
+margin:20px;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+transition:0.3s;
+}
+
+.topic-card:hover{
+transform:scale(1.05);
+}
+
+.topic-card h3{
+margin-bottom:10px;
+}
