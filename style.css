@@ -174,3 +174,21 @@ width:90%;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.6);
 }
+
+.diagram{
+text-align:center;
+margin-top:40px;
+}
+
+.diagram img{
+width:400px;
+max-width:90%;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.6);
+}
+
+.diagram p{
+margin-top:10px;
+font-size:14px;
+color:#ccc;
+}
