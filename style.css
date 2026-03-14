@@ -169,3 +169,14 @@ padding:20px;
 margin-top:40px;
 color:#bbb;
 }
+
+.rocket-img{
+
+width:70%;
+max-width:700px;
+display:block;
+margin:30px auto;
+border-radius:10px;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
+
+}
