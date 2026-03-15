@@ -190,3 +190,66 @@ margin:40px auto;
 border-radius:10px;
 
 }
+
+/* HERO BUTTON */
+
+.hero-button{
+
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#4db8ff;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
+transition:0.3s;
+
+}
+
+.hero-button:hover{
+
+background:#72c9ff;
+transform:scale(1.05);
+
+}
+
+/* SMOOTH PAGE FEEL */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+/* BETTER HEADING STYLE */
+
+h2{
+
+letter-spacing:1px;
+
+}
+
+h3{
+
+letter-spacing:0.5px;
+
+}
+
+/* SMALL MOBILE IMPROVEMENT */
+
+@media(max-width:700px){
+
+.hero h2{
+
+font-size:30px;
+
+}
+
+.hero{
+
+height:320px;
+
+}
+
+}
