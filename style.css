@@ -253,3 +253,68 @@ height:320px;
 }
 
 }
+
+/* SATELLITE PAGE IMPROVEMENTS */
+
+/* Better spacing for sections */
+
+.topics h2{
+margin-top:20px;
+margin-bottom:20px;
+font-size:30px;
+}
+
+.topics h3{
+margin-top:40px;
+color:#4db8ff;
+font-size:24px;
+}
+
+.topics h4{
+margin-top:25px;
+color:#9fd3ff;
+font-size:20px;
+}
+
+/* Paragraph readability */
+
+.topics p{
+max-width:850px;
+margin:15px auto;
+line-height:1.8;
+}
+
+/* Lists look cleaner */
+
+.topics ul{
+max-width:800px;
+margin:auto;
+text-align:left;
+line-height:1.7;
+}
+
+/* Image captions */
+
+.image-caption{
+font-size:14px;
+color:#ccc;
+margin-top:10px;
+text-align:center;
+}
+
+/* Better orbit image display */
+
+.orbit-img{
+width:80%;
+max-width:900px;
+display:block;
+margin:40px auto;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+/* Smooth page scrolling */
+
+html{
+scroll-behavior:smooth;
+}
