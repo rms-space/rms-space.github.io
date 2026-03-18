@@ -318,3 +318,23 @@ box-shadow:0 0 15px rgba(0,0,0,0.5);
 html{
 scroll-behavior:smooth;
 }
+
+/* NEWS SECTION */
+
+.news-item{
+
+background:#16263c;
+padding:20px;
+margin:20px auto;
+max-width:800px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.news-item h4{
+
+color:#4db8ff;
+margin-bottom:10px;
+
+}
