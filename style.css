@@ -338,3 +338,33 @@ color:#4db8ff;
 margin-bottom:10px;
 
 }
+
+/* NEWS CARDS */
+
+.news-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:20px;
+}
+
+.news-card{
+background:#16263c;
+padding:20px;
+width:260px;
+border-radius:10px;
+transition:0.3s;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.news-card:hover{
+transform:scale(1.05);
+background:#1e3555;
+}
+
+.news-card a{
+color:#4db8ff;
+text-decoration:none;
+font-weight:bold;
+}
