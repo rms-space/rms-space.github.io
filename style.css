@@ -418,3 +418,41 @@ color:#ccc;
 margin-top:10px;
 
 }
+
+/* BASICS PAGE */
+
+.law-box{
+
+background:#16263c;
+padding:20px;
+margin:25px auto;
+max-width:850px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.law-box p{
+
+margin:0;
+
+}
+
+/* BASICS PAGE */
+
+.law-box{
+
+background:#16263c;
+padding:20px;
+margin:25px auto;
+max-width:850px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.law-box p{
+
+margin:0;
+
+}
