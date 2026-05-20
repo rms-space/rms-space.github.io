@@ -368,3 +368,53 @@ color:#4db8ff;
 text-decoration:none;
 font-weight:bold;
 }
+
+/* MISSILE PAGE */
+
+.phase-box{
+
+background:#16263c;
+padding:20px;
+margin:25px auto;
+max-width:900px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.phase-box h4{
+
+color:#4db8ff;
+margin-bottom:10px;
+
+}
+
+.classification-box{
+
+background:#101c2c;
+padding:20px;
+border-radius:10px;
+margin:20px auto;
+max-width:900px;
+
+}
+
+.orbit-img{
+
+width:90%;
+max-width:1100px;
+display:block;
+margin:40px auto;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.6);
+
+}
+
+.image-caption{
+
+text-align:center;
+font-size:14px;
+color:#ccc;
+margin-top:10px;
+
+}
